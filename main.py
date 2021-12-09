@@ -7,13 +7,7 @@
 def even_elements():
     a = [1,4,9,16,25,36,49,64,81,100]
 
-# one line solution
     return [ i for i in a if i%2 ==0]
-
-
-
-
-
 
 #   even_a = []
 
@@ -23,11 +17,9 @@ def even_elements():
 #   print (even_a)
 
 
-
-
-
-
 if __name__ == '__main__':
     print(even_elements())
+
+
 
 
